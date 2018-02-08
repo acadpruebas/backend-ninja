@@ -1,0 +1,16 @@
+banner:
+  location: classpath:banner.txt
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.99.100:3306/mydb?useSSL=false
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect  
