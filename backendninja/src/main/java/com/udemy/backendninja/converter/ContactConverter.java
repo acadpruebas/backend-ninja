@@ -1,11 +1,11 @@
-package com.udemy.backendninja.component;
+package com.udemy.backendninja.converter;
 
 import org.springframework.stereotype.Component;
 
 import com.udemy.backendninja.entity.Contact;
 import com.udemy.backendninja.model.ContactModel;
 
-@Component("contactConverter")
+@Component
 public class ContactConverter {
 
 	public Contact convertContactModel2Contact(ContactModel contactModel) {
