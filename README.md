@@ -16,5 +16,5 @@ Para el login:
 user: user
 password: user
 
-Hay que hacer un mvn clean install después de importarlo
+Hay que hacer un mvn clean install después de importarlo.
 Y nada más. Cualquier cosa mandame un correo
