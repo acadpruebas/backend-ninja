@@ -1,7 +1,7 @@
 # Leer esto primero
 Antes que nada, bienvenida a este repo para el ejemplo jejjeje
 El código se podría mejorar pero la estructura está bastante decente.
-La app es un simple CRUD web, uso un contenedor MYSQL para tener la base de datos.
+La app es un simple CRUD web, uso un contenedor MYSQL para tener la base de datos y el proyecto de java es con maven.
 
 Si tienes docker el comando para que puedas tener el contenedor es el siguiente:
 docker run --name sqlServer -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=mydb -d -p 3306:3306 mysql
@@ -16,4 +16,5 @@ Para el login:
 user: user
 password: user
 
+Hay que hacer un mvn clean install después de importarlo
 Y nada más. Cualquier cosa mandame un correo
